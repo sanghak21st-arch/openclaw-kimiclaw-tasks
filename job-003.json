@@ -1,0 +1,48 @@
+{
+  "task_id": "KIM-2026-03-14-003",
+  "type": "research",
+  "priority": "high",
+  "deadline": "2026-03-15T12:00:00+09:00",
+  "status": "pending",
+  "request": {
+    "title": "SaaS 경쟁사 실제 조사",
+    "description": "정부지원사업 사업계획서 자동작성 SaaS 시장의 실제 경쟁사를 조사",
+    "research_items": [
+      {
+        "target": "비즈니스온",
+        "category": "사업계획서 SaaS"
+      },
+      {
+        "target": "타사 SaaS",
+        "price_range": "₩5만~10만/월"
+      },
+      {
+        "target": "ChatGPT/Claude 활용 서비스",
+        "category": "개인 개발자/스타트업"
+      },
+      {
+        "target": "정부24/K-Startup",
+        "category": "무료 공공 서비스"
+      },
+      {
+        "target": "기타 신규 진입자",
+        "period": "2024-2025년 런칭 서비스"
+      }
+    ]
+  },
+  "output_schema": {
+    "format": "markdown table",
+    "columns": ["업체명", "서비스명", "가격", "핵심 기능", "차별점", "홈페이지"]
+  },
+  "deliverables": [
+    "조사 리포트 (markdown)",
+    "요약 5줄",
+    "우리 서비스와의 차별화 포인트 분석"
+  ],
+  "context": {
+    "purpose": "REDTEAM에서 경쟁사 분석 구체화 필요로 지적됨",
+    "usage": "가격 정책 및 차별화 전략 수립에 활용"
+  },
+  "created_at": "2026-03-14T18:35:00+09:00",
+  "created_by": "cloe-ceo-openclaw"
+}
